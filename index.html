@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WIFI-CODE</title>
+    <style>
+        /* Styles généraux */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        /* Entête */
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        /* Logo */
+        .logo {
+            height: 100px;
+        }
+
+        /* Texte dans l'entête */
+        .header-text {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 50px;
+        }
+
+        /* Contenu principal */
+        .content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Tableau */
+        table {
+            width: 100%;
+            margin: 20px auto;
+            border-collapse: collapse;
+            background-color: white;
+            box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+            table-layout: fixed;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+            word-wrap: break-word;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Pied de page */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        /* Rendre le tableau scrollable sur petits écrans */
+        @media (max-width: 768px) {
+            .content {
+                padding: 10px;
+            }
+
+            table {
+                width: 100%;
+                overflow-x: auto;
+                display: block;
+            }
+
+            th, td {
+                font-size: 14px;
+            }
+
+            .logo {
+                height: 40px;
+            }
+
+            .header-text {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Entête -->
+    <header>
+        <img src="logo.png" alt="Logo" class="logo">
+        <div class="header-text">CODE WIFI TECHNOLAB-SOTUBA</div>
+    </header>
+
+    <!-- Contenu principal -->
+    <div class="content">
+        <h1>Bienvenue sur la page code wifi TechnoLab de Sotuba</h1>
+
+        <!-- Tableau avec les filières et informations wifi -->
+        <div style="overflow-x:auto;">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Filière</th>
+                        <th>Nom du Wifi</th>
+                        <th>Mot de Passe Wifi</th>
+                        <th>Date</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Informatique -->
+                    <tr>
+                        <td rowspan="3">Informatique</td>
+                        <td>Wifi_1_L1</td>
+                        <td>password123</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_1_L2</td>
+                        <td>password456</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_1_L3</td>
+                        <td>password789</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Génie Civil -->
+                    <tr>
+                        <td rowspan="3">Génie Civil</td>
+                        <td>Wifi_2_L1</td>
+                        <td>pass9876</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_2_L2</td>
+                        <td>pass6543</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_2_L3</td>
+                        <td>pass3210</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Électronique -->
+                    <tr>
+                        <td rowspan="3">Électronique</td>
+                        <td>Wifi_3_L1</td>
+                        <td>elec4567</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_3_L2</td>
+                        <td>elec2345</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_3_L3</td>
+                        <td>elec6789</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Chimie -->
+                    <tr>
+                        <td rowspan="3">Chimie</td>
+                        <td>Wifi_4_L1</td>
+                        <td>chem1234</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_4_L2</td>
+                        <td>chem5678</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_4_L3</td>
+                        <td>chem8765</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Physique -->
+                    <tr>
+                        <td rowspan="3">Physique</td>
+                        <td>Wifi_5_L1</td>
+                        <td>phys8901</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_5_L2</td>
+                        <td>phys2345</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_5_L3</td>
+                        <td>phys6789</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Mathematique -->
+                    <tr>
+                        <td rowspan="3">Mathematique</td>
+                        <td>Wifi_6_L1</td>
+                        <td>math5432</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_6_L2</td>
+                        <td>math3210</td>
+                        <td>14/12/2024</td>
+                    </tr>
+                    <tr>
+                        <td>Wifi_6_L3</td>
+                        <td>math9876</td>
+                        <td>14/12/2024</td>
+                    </tr>
+
+                    <!-- Autres filières (répétez pour chaque) -->
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Pied de page -->
+    <footer>
+        <p>&copy; 2024 TechnoLab-Sotuba. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
